@@ -4,6 +4,6 @@ Then /^I should see a fortune$/ do
 end
 
 Then /^I should see a fortune with ID$/ do
-  fortune = page.find(".fortune.21")
+  fortune = page.find(".fortune")
   fortune.text.should match "Your many hidden talents will become obvious to those around you."
 end
