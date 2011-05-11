@@ -13,10 +13,10 @@ module NavigationHelpers
     when /the home\s?page/
       '/'
 
-    when /fortunes/random/i
+    when /fortunes/i
       '/fortune/random/'
 
-    when /fortunes/get/i
+    when /fortunes/get/21
       '/fortune/get/21'
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
